@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "html-react-parser": "^6.1.8",
-    "lodash": "^4.18.1",
     "next": "16.4.2",
     "nl2br": "^0.0.3",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-icons": "^5.7.0",
+    "swiper": "^14.3.0",
     "validator": "^13.15.35",
     "yet-another-react-lightbox": "^3.32.2"
   },
