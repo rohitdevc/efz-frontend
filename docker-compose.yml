@@ -1,0 +1,32 @@
+name: efz-frontend
+
+services:
+  efz-web:
+    container_name: efz-frontend
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_PATH: ${NEXT_PUBLIC_PATH}
+        BASEPATH_PREFIX: ${BASEPATH_PREFIX}
+        ASSET_PREFIX: ${ASSET_PREFIX}
+        API_DOMAIN_NAME: ${API_DOMAIN_NAME}
+        FRONTEND_TOKEN_KEY: ${FRONTEND_TOKEN_KEY}
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./public:/app/public
+
+    environment:
+      NODE_ENV: production
+      PORT: 2977
+      HOSTNAME: "0.0.0.0"
+
+    ports:
+      - "2977:2977"
+
+    command: node server.js
+    restart: unless-stopped
