@@ -74,7 +74,6 @@ The Docker configuration references the following variables:
 | `NEXT_PUBLIC_PATH` | Public-facing application path configuration |
 | `BASEPATH_PREFIX` | Next.js base path configuration |
 | `ASSET_PREFIX` | Asset URL prefix |
-| `FRONTEND_TOKEN_KEY` | Frontend integration token configuration |
 
 Set each value according to your environment and the application's configuration requirements. Some values are supplied as Docker build arguments, so they may need to be available when building the image.
 
