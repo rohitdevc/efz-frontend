@@ -2,6 +2,7 @@
 
 The frontend application for the EFZ website, built with Next.js, React, TypeScript, and Tailwind CSS.
 
+- **Live Website:** https://www.eonfreezone.com/
 - **Repository:** [rohitdevc/efz-frontend](https://github.com/rohitdevc/efz-frontend)
 
 ## Overview
