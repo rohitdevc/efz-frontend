@@ -46,7 +46,7 @@ FROM base AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
-ENV PORT=2978
+ENV PORT=2977
 ENV HOSTNAME=0.0.0.0
 
 COPY --from=builder /app/public ./public
