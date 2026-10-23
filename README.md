@@ -2,7 +2,7 @@
 
 The frontend application for the EFZ website, built with Next.js, React, TypeScript, and Tailwind CSS.
 
-- **Live Website:** https://www.eonfreezone.com/
+- **Netlify Website:** https://eonfreezone.netlify.app/
 - **Repository:** [rohitdevc/efz-frontend](https://github.com/rohitdevc/efz-frontend)
 
 ## Overview
@@ -22,6 +22,7 @@ The application supports configurable API endpoints, asset paths, and base paths
 - **Configurable Deployment:** Supports configurable base paths and asset prefixes.
 - **Docker Support:** Includes Dockerfile and Docker Compose configuration for containerized deployment.
 - **Analytics:** Includes Google Analytics integration.
+- **Netlify Deployment** — Hosted on Netlify with deployment-aware Next.js configuration.
 
 ## Technology Stack
 
